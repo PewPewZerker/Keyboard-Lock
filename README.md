@@ -2,17 +2,15 @@
 
 ## 🛠️ Requisites & Setup
 
-Follow these quick steps to get cat-proofing active:
-
 - [ ] **Step 1:** Install the latest version of AutoHotkey from [Autohotkey.com](https://www.autohotkey.com/download/ahk-v2.exe).
 - [ ] **Step 2:** Download and run the script file: [keyboardLock.ahk](https://github.com/PewPewZerker/Keyboard-Lock/releases/download/Main/keyboardLock.ahk).
-- [ ] **Step 3:** You are all set! The script automatically configures itself to boot up with Windows.
+- [ ] **Step 3:** You are all set! The script automatically configures itself to boot up with Windows, **the default keybind is "F11"**, if you feel like changing it, move onto the next section.
 
 <hr style="border: none; height: 1px; background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(255,255,255,0.2), rgba(0,0,0,0)); width: 100%; margin: 30px 0;">
 
 ## ⚙️ Customization (Optional)
 
-The default toggle key is **F11**. Follow these steps to rebind it to any key combination you prefer:
+Follow these steps to rebind the toggle key to any key combination you prefer:
 
 ### 1. Edit the Script
 Right-click the script's green **H** icon in your system tray and select **Edit Script**.
