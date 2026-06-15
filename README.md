@@ -1,16 +1,14 @@
-<table>
-  <tr>
-    <td width="70%" valign="middle">
-      <p>This script locks down your keyboard and touchpad with a single keypress. If you’re tired of your cat typing gibberish, opening random windows, or ruining your gaming sessions, this <strong>will</strong> save your sanity!</p>
-      <p>Every similar software I tried had some pretty major (and minor) gaps — like failing to work during fullscreen gaming, lacking dual-action keybinds, or suffering from heavy code bloat and overdesigned UIs. So I decided to take a crack at building my own.</p>
-      <p><strong>Note:</strong> Admin mode is required for hardware access (the script triggers this automatically).</p>
-    </td>
-    <td width="30%" valign="middle" align="center">
-      <img width="220" alt="cat-keyboard" src="https://github.com/user-attachments/assets/93d5d145-352b-46de-a10d-70e0a50e6c4e" />
-    </td>
-  </tr>
-</table>
+# 🐾 Cat-Proof Keyboard Lock
 
+This script locks down your keyboard and touchpad with a single keypress. If you’re tired of your cat typing gibberish, opening random windows, or ruining your gaming sessions, this **will** save your sanity!
+
+Every similar software I tried had some pretty major (and minor) gaps — like failing to work during fullscreen gaming, lacking dual-action keybinds, or suffering from heavy code bloat and overdesigned UIs. So I decided to take a crack at building my own.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/93d5d145-352b-46de-a10d-70e0a50e6c4e" alt="cat-keyboard" style="max-width: 100%; height: auto;" width="220" />
+</p>
+
+> **Note:** Admin mode is required for hardware access (the script triggers this automatically).
 
 ## 🌟 Key Features
 
@@ -38,7 +36,9 @@ Follow these steps to rebind the toggle key to any key combination you prefer:
 ### 1. Edit the Script
 Right-click the script's green **H** icon in your system tray and select **Edit Script**.
 
-<img width="250" alt="Edit Script Menu" src="https://github.com/user-attachments/assets/46e4e42e-ab16-431c-82fd-49ead8a52463" />
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/46e4e42e-ab16-431c-82fd-49ead8a52463" alt="Edit Script Menu" style="max-width: 100%; height: auto;" width="250" />
+</p>
 
 ### 2. Change the Key Values
 Your text editor will open. Replace both instances of `F11` with your preferred hotkey, then save the file (`Ctrl + S`).
@@ -63,4 +63,6 @@ ToggleKeyboardBlock() {
 ### 3. Reload and Apply
 Right-click the system tray icon again and choose **Reload Script** to activate your changes.
 
-<img width="250" alt="Reload Script Menu" src="https://github.com/user-attachments/assets/bead17d7-b9f4-402b-944e-b6e11a2876f3" />
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/bead17d7-b9f4-402b-944e-b6e11a2876f3" alt="Reload Script Menu" style="max-width: 100%; height: auto;" width="250" />
+</p>
