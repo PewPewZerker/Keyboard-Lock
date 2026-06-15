@@ -1,12 +1,35 @@
-<img width="1080" height="636" alt="i-catproofed-our-keyboards-to-the-joy-of-our-cats-v0-af9w3uc1rd7h1" src="https://github.com/user-attachments/assets/9c5d130d-e03d-4056-8482-38375fc17f67" />
+<table>
+  <tr>
+    <td width="70%" valign="middle">
+      <p>This script locks down your keyboard and touchpad with a single keypress. If you’re tired of your cat typing gibberish, opening random windows, or ruining your gaming sessions, this <strong>will</strong> save your sanity!</p>
+      <p>Every similar software I tried had some pretty major (and minor) gaps — like failing to work during fullscreen gaming, lacking dual-action keybinds, or suffering from heavy code bloat and overdesigned UIs. So I decided to take a crack at building my own.</p>
+      <p><strong>Note:</strong> Admin mode is required for hardware access (the script triggers this automatically).</p>
+    </td>
+    <td width="30%" valign="middle" align="center">
+      <img width="220" alt="cat-keyboard" src="https://github.com/user-attachments/assets/93d5d145-352b-46de-a10d-70e0a50e6c4e" />
+    </td>
+  </tr>
+</table>
 
-## 🛠️ Requisites & Setup
+
+## 🌟 Key Features
+
+* Instant Toggleable Lock: Tap F11 (by default) to freeze your keyboard and touchpad instantly.
+* Mouse Control: Keeps your mouse fully active while the keyboard is locked.
+* Ultra-Lightweight: Written in just 52 lines of code.
+* Gaming Friendly: Works perfectly over full-screen games without minimizing.
+* Visual Alerts: Shows a tooltip that fades after 2 seconds to display lock status.
+* Windows Boot: Launches automatically when your PC turns on.
+
+------------------------------
+
+## 🛠️ Prerequisites & Setup
 
 - [ ] **Step 1:** Install the latest version of AutoHotkey from [Autohotkey.com](https://www.autohotkey.com/download/ahk-v2.exe).
 - [ ] **Step 2:** Download and run the script file: [keyboardLock.ahk](https://github.com/PewPewZerker/Keyboard-Lock/releases/download/Main/keyboardLock.ahk).
-- [ ] **Step 3:** You are all set! The script automatically configures itself to boot up with Windows, **the default keybind is "F11"**, if you feel like changing it, move onto the next section.
+- [ ] **Step 3:** You are all set! The script automatically configures itself to boot up with Windows, **the default keybind is "F11"**, to change it, move onto the next section.
 
-<hr style="border: none; height: 1px; background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(255,255,255,0.2), rgba(0,0,0,0)); width: 100%; margin: 30px 0;">
+***
 
 ## ⚙️ Customization (Optional)
 
