@@ -1,10 +1,15 @@
 <img width="1080" height="636" alt="i-catproofed-our-keyboards-to-the-joy-of-our-cats-v0-af9w3uc1rd7h1" src="https://github.com/user-attachments/assets/9c5d130d-e03d-4056-8482-38375fc17f67" />
 
-## **Prerequisites**
-Have the latest version of AHK installed - ["Autohotkey.com"](https://www.autohotkey.com/download/ahk-v2.exe)
+## **Requisites**
+Have the latest version of AHK installed - [Autohotkey.com](https://www.autohotkey.com/download/ahk-v2.exe)
+
 Download the script and run it - [keyboardLock.ahk](https://github.com/PewPewZerker/Keyboard-Lock/releases/download/Main/keyboardLock.ahk)
-You won't have to run it again after the first time.
+
+You won't have to run it again after the first time - it will boot up with windows.
+
 And you're all set!
+
+<hr style="border: none; height: 1px; background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.4), rgba(0,0,0,0)); width: 100%; margin: 20px 0;">
 
 Additionally, if you want to rebind the toggle key (default F11), proceed with the following:
 
