@@ -57,6 +57,7 @@ ToggleKeyboardBlock() {
         
         Blocker.OnKeyDown := (ih, vk, sc) => "" 
     }
+}
 ```
 
 ### 3. Reload and Apply
