@@ -1,27 +1,44 @@
 <img width="1080" height="636" alt="i-catproofed-our-keyboards-to-the-joy-of-our-cats-v0-af9w3uc1rd7h1" src="https://github.com/user-attachments/assets/9c5d130d-e03d-4056-8482-38375fc17f67" />
 
-## **Requisites**
-Have the latest version of AHK installed - [Autohotkey.com](https://www.autohotkey.com/download/ahk-v2.exe)
+## 🛠️ Requisites & Setup
 
-Download the script and run it - [keyboardLock.ahk](https://github.com/PewPewZerker/Keyboard-Lock/releases/download/Main/keyboardLock.ahk)
+Follow these quick steps to get cat-proofing active:
 
-You won't have to run it again after the first time - it will boot up with windows.
+- [ ] **Step 1:** Install the latest version of AutoHotkey from [Autohotkey.com](https://www.autohotkey.com/download/ahk-v2.exe).
+- [ ] **Step 2:** Download and run the script file: [keyboardLock.ahk](https://github.com/PewPewZerker/Keyboard-Lock/releases/download/Main/keyboardLock.ahk).
+- [ ] **Step 3:** You are all set! The script automatically configures itself to boot up with Windows.
 
-And you're all set!
+<hr style="border: none; height: 1px; background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(255,255,255,0.2), rgba(0,0,0,0)); width: 100%; margin: 30px 0;">
 
-<hr style="border: none; height: 1px; background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.4), rgba(0,0,0,0)); width: 100%; margin: 20px 0;">
+## ⚙️ Customization (Optional)
 
-Additionally, if you want to rebind the toggle key (default F11), proceed with the following:
+The default toggle key is **F11**. Follow these steps to rebind it to any key combination you prefer:
 
-## **1. Edit**
+### 1. Edit the Script
+Right-click the script's green **H** icon in your system tray and select **Edit Script**.
 
-<img width="247" height="365" alt="Edit" src="https://github.com/user-attachments/assets/46e4e42e-ab16-431c-82fd-49ead8a52463" />
+<img width="250" alt="Edit Script Menu" src="https://github.com/user-attachments/assets/46e4e42e-ab16-431c-82fd-49ead8a52463" />
 
-## **2. Change values** and save the file
+### 2. Change the Key Values
+Your text editor will open. Replace both instances of `F11` with your preferred hotkey, then save the file (`Ctrl + S`).
 
-<img width="1897" height="426" alt="whereToChangeToggle" src="https://github.com/user-attachments/assets/cc2d2677-cd6c-4a56-914c-796fa18db38d" />
+```autohotkey
+*F11:: ToggleKeyboardBlock() ; <--- 1. CHANGE THIS TO YOUR TOGGLE KEY (e.g., *F10::)
 
-## **3. Reload**
+ToggleKeyboardBlock() {
+    Static Blocker := ""
+    
+    If (Blocker == "") {
+        Blocker := InputHook("L0 I1") 
+        Blocker.KeyOpt("{All}", "S")   
+        
+        Blocker.KeyOpt("F11", "-S") ; <--- 2. CHANGE THIS MATCHING KEY TOO (e.g., "F10")
+        
+        Blocker.OnKeyDown := (ih, vk, sc) => "" 
+    }
+```
 
-<img width="277" height="382" alt="Reload" src="https://github.com/user-attachments/assets/bead17d7-b9f4-402b-944e-b6e11a2876f3" />
+### 3. Reload and Apply
+Right-click the system tray icon again and choose **Reload Script** to activate your changes.
 
+<img width="250" alt="Reload Script Menu" src="https://github.com/user-attachments/assets/bead17d7-b9f4-402b-944e-b6e11a2876f3" />
